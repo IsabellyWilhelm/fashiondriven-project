@@ -16,7 +16,8 @@
             <img src="./imagem/Logo.png">
     </header>
     <div class="container flex">
-            <div class="esquerda flex">
+            <div class="esquerda ">
+                
                 <div class="modelo">
                     <p>Escolha o modelo</p>
                     <div class="imagens flex">
@@ -65,11 +66,12 @@
                             <p>Poliéster</p></span>
                     </div>
                 </div>
+            
                 <div class="url-imagem">
-                    <p>Imagem de referência</p>
                     <input type="text" placeholder="Insira o link">
+                    <button class="cinza" onclick="confirmarPedido()">Confirmar pedido</button>
                 </div>
-                <button class="cinza" onclick="confirmarPedido()">Confirmar pedido</button>
+                
             </div>
         
             <div class="direita centralizado">
@@ -78,7 +80,7 @@
     </div>
     <footer >
         <p class="titulo">Ultimos pedidos</p>
-        <div class="centralizado"> 
+        <div class="centralizado imagens"> 
         </div>
     </footer>
 	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
